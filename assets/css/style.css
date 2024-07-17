@@ -270,6 +270,11 @@
     color: #FFFFFF;
 }
 
+.px-9 {
+    padding-left: 9px !important;
+    padding-right: 9px !important;
+}
+
 .content-li {
     font-family: Poppins;
     font-size: 12px;
