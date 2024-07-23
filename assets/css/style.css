@@ -20,13 +20,15 @@
 
 .herosection {
     position: relative;
-    background-image: url(/assets/images/herosection.png);
+    background-image: url(/assets/images/png/herosection.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-footer{
+
+footer {
     padding-bottom: 10px;
 }
+
 .lenear {
     position: absolute;
     top: 0;
@@ -39,9 +41,11 @@ footer{
 .bg-shadow {
     box-shadow: 0px 8px 35px 0px #0000000D;
 }
+
 .navbar a {
-text-decoration: none;
+    text-decoration: none;
 }
+
 .nav-logo {
     display: none;
 }
@@ -118,6 +122,10 @@ text-decoration: none;
 .l2:hover::after {
     width: 100%;
     left: 0;
+}
+
+.pb115 {
+    padding-bottom: 115px;
 }
 
 .heme-events {
