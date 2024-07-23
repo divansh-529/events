@@ -21,8 +21,12 @@
 .herosection {
     position: relative;
     background-image: url(/assets/images/herosection.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+footer{
+    padding-bottom: 10px;
+}
 .lenear {
     position: absolute;
     top: 0;
@@ -35,7 +39,9 @@
 .bg-shadow {
     box-shadow: 0px 8px 35px 0px #0000000D;
 }
-
+.navbar a {
+text-decoration: none;
+}
 .nav-logo {
     display: none;
 }
@@ -46,6 +52,8 @@
     height: 4px;
     background: white;
     z-index: 3;
+    margin-right: 12px;
+    cursor: pointer;
 }
 
 .mr-61 {
